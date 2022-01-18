@@ -1,6 +1,7 @@
 categories:
 - Blog
 - CMS
+- Neocloud
 questions:
 - variable: defaultImage
   default: false
@@ -44,7 +45,7 @@ questions:
   label: WordPress Password
   group: "WordPress Settings"
 - variable: wordpressEmail
-  default: "user@example.com"
+  default: "user2@example.com"
   description: "Admin email"
   type: string
   required: true
@@ -125,7 +126,7 @@ questions:
     type: string
     label: MariaDB Volume Size
   - variable: mariadb.master.persistence.storageClass
-    default: ""
+    default: "cephfs-storage"
     description: "If undefined or null, uses the default StorageClass. Default to null"
     type: storageclass
     label: Default StorageClass for MariaDB
