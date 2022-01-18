@@ -3,7 +3,7 @@ categories:
 - CMS
 questions:
 - variable: defaultImage
-  default: true
+  default: false
   description: "Use default Docker image"
   label: Use Default Image
   type: boolean
