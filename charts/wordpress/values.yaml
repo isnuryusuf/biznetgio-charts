@@ -97,7 +97,9 @@ wordpressUsername: wp-admin
 ## @param wordpressPassword WordPress user password
 ## Defaults to a random 10-character alphanumeric string if not set
 ##
-wordpressPassword: "password123"
+#
+# yusuf
+wordpressPassword: ""
 ## @param existingSecret Name of existing secret containing WordPress credentials
 ## NOTE: Must contain key `wordpress-password`
 ## NOTE: When it's set, the `wordpressPassword` parameter is ignored
@@ -938,11 +940,12 @@ mariadb:
   ## ref: https://github.com/bitnami/bitnami-docker-mariadb#setting-the-root-password-on-first-run
   ##      https://github.com/bitnami/bitnami-docker-mariadb/blob/master/README.md#creating-a-database-on-first-run
   ##      https://github.com/bitnami/bitnami-docker-mariadb/blob/master/README.md#creating-a-database-user-on-first-run
+  # yusuf
   auth:
-    rootPassword: "password123"
+    rootPassword: ""
     database: bitnami_wordpress
     username: bn_wordpress
-    password: "password123"
+    password: ""
   ## MariaDB Primary configuration
   ##
   primary:
@@ -974,7 +977,8 @@ externalDatabase:
   user: bn_wordpress
   ## @param externalDatabase.password External Database user password
   ##
-  password: "password123"
+  # yusuf
+  password: ""
   ## @param externalDatabase.database External Database database name
   ##
   database: bitnami_wordpress
