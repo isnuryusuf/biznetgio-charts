@@ -20,4 +20,32 @@ entries:
     urls:
     - https://github.com/isnuryusuf/biznetgio-charts/releases/download/app2-0.1.0/app2-0.1.0.tgz
     version: 0.1.0
+  wordpress:
+  - annotations:
+      category: CMS
+    apiVersion: v2
+    appVersion: 5.8.3
+    created: "2022-01-19T02:10:56.455405724+07:00"
+    description: Web publishing platform for building blogs and websites.
+    digest: d5dbe6d77cd18303514d5e02f282b68c77774e8dd4271269557329d8b5604c61
+    home: https://github.com/bitnami/charts/tree/master/bitnami/wordpress
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - application
+    - blog
+    - cms
+    - http
+    - php
+    - web
+    - wordpress
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    - https://wordpress.org/
+    urls:
+    - https://github.com/isnuryusuf/biznetgio-charts/releases/download/wordpress-12.3.3/wordpress-12.3.3.tgz
+    version: 12.3.3
 generated: "2022-01-19T01:39:24.440330256+07:00"

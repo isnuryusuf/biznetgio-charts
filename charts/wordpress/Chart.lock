@@ -1,0 +1,12 @@
+dependencies:
+- name: mariadb
+  repository: https://isnuryusuf.github.io/charts
+  version: 10.3.1
+- name: memcached
+  repository: https://isnuryusuf.github.io/charts
+  version: 5.15.14
+- name: common
+  repository: https://isnuryusuf.github.io/charts
+  version: 1.10.3
+digest: sha256:319f05b0d98ce28ea57e6ede3cb1305e217a990c2320c4a4e84c442bd2f4d698
+generated: "2022-01-19T02:09:58.900314786+07:00"
